@@ -1,15 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { HeaderContainer, Image, NavList, Burger } from "./style";
 import { animes } from "../../data/animes";
 
 function Header({ setSearch }) {
   const [menuOpen, setMenuOpen] = useState(false);
-  const isMobile = window.innerWidth <= 645;
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 645);
 
-  function handleAnimeClick(anime) {
-    setSearch(anime);
-    setMenuOpen(false);
-  }
+  useEffect(() => {
+    function handleResize() {
+      setIsMobile(window.innerWidth <= 645);
+    }
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
   return (
     <HeaderContainer>

@@ -2,7 +2,7 @@ import { useState, useMemo } from "react";
 import Header from "../../components/Header";
 import Search from "../../components/Search";
 import Cards from "../../components/Cards";
-
+import CarouselModal from "../../components/CarouselModal";
 import { models } from "../../data/models";
 import { buildCardsData } from "../../../utils/buildSearchModels";
 
@@ -11,6 +11,10 @@ import { BoxInput, CardContainer, Container, Content } from "./styles";
 function Home() {
   const [search, setSearch] = useState("");
   const [styleFilter, setStyleFilter] = useState("ALL");
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  const openModal = item => setSelectedItem(item);
+  const closeModal = () => setSelectedItem(null);
 
   const cardsData = useMemo(
     () => buildCardsData(models),
@@ -44,10 +48,14 @@ function Home() {
         </BoxInput>
 
         <CardContainer>
-          <Cards data={filteredData} />
+          <Cards data={filteredData} onSelect={openModal} />
         </CardContainer>
       </Content>
+      {selectedItem && (
+      <CarouselModal item={selectedItem} onClose={closeModal} />
+      )}
     </Container>
+      
   );
 }
 

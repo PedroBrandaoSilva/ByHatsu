@@ -1,143 +1,622 @@
 export const models = [
   {
     id: 1,
-    anime: "Naruto",
-    descricao: "Ninjas lutam para proteger suas vilas e seus ideais.",
+    nome: "Jujutsu Kaisen",
     personagens: [
       {
         id: 1,
-        nome: "Naruto Uzumaki",
-        estilos: [
+        nome: "Aoi Todo",
+        modelos: [
           {
-            tipo: "Action Figure",
-            modelos: [
-              {
-                id: 1,
-                nome: "Naruto SH Figuarts",
-                imagens: [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhZjX9Y-tfXUJqVDnfDiurCqBG_DCWy-IRV03s66V7PrZG55eyBeiOMcUjPQ6QcQbrqqYmJqfCGybmEgD61PEf9Od3fg23rOvBaTrrOSEnQ&s=10"
-                ]
-              }
+            id: 2,
+            nome: "Aoi Todo Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769290190/aoi1.1_visya2.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769290199/aoi1.2_wqmd3x.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769290193/aoi1.3_zmynme.png"
             ]
           },
           {
-            tipo: "Funko Pop",
-            modelos: [
-              {
-                id: 1,
-                nome: "Naruto Funko",
-                imagens: [
-                  "data:image/jpeg;base64,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"
-                ]
-              }
+            id: 3,
+            nome: "Aoi Todo 2 Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769290179/aoi2_oqkutv.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769290181/aoi2.3_dmlyqp.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769290187/aoi2.1_ol7xt6.jpg"
+
+
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 2,
+    nome: "Demon Slayer",
+    personagens: [
+      {
+        id: 1,
+        nome: "Akaza",
+        modelos: [
+          {
+            id: 1,
+            nome: "Akaza Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552619/akaza8.2_ahugiy.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552617/akaza8.1_bkwef6.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552616/akaza8.3_zalqod.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552615/akaza8.4_may17a.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552614/akaza8.5_ej39oa.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552613/akaza8.6_ucb8yu.png"
+            ]
+          },
+          {
+            id: 2,
+            nome: "Akaza Funko Pop 1",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552564/akaza7.2_iqcjwl.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552564/akaza7.5_vkj6fy.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552564/akaza7.1_ehao9a.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552563/akaza7.6_al9lqz.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552563/akaza7.3_yxakhc.png"
+            ]
+          },
+          {
+            id: 3,
+            nome: "Akaza Funko Pop 2",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552516/akaza6.3_vd50dn.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552516/akaza6.2_otrdkj.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552516/akaza6.1_t14upu.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552516/akaza6.4_ce6qno.png"
+            ]
+          },
+          {
+            id: 4,
+            nome: "Akaza Funko Pop 3",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289073/akaza3.2_kdatri.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289072/akaza3.1_uenybt.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289071/akaza2.2_hdwd8h.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289067/akaza2.1_rysrjf.png"
+            ]
+          },
+          {
+            id: 5,
+            nome: "Akaza Funko Pop 4",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289074/akaza1.1_bqcybb.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289078/akaza1.5_wgs7yb.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289077/akaza1.4_aqnjky.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289076/akaza1.3_wyigby.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289075/akaza1.2_afai1a.png"
+            ]
+          },
+          {
+            id: 6,
+            nome: "Akaza Funko Pop 5",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289073/akaza3.2_kdatri.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289078/akaza1.5_wgs7yb.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289077/akaza1.4_aqnjky.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289076/akaza1.3_wyigby.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289075/akaza1.2_afai1a.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289074/akaza1.1_bqcybb.png"
+            ]
+          },
+          {
+            id: 7,
+            nome: "Akaza Funko Pop 6",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289068/akaza5.3_lntvb3.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289066/akaza5.2_pvumql.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289065/akaza5.1_cl3dcr.png"
+            ]
+          },
+          {
+            id: 8,
+            nome: "Akaza Funko Pop 7",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289063/akaza4.1_vrjn6a.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289064/akaza4.2_mf33dg.png"
+
             ]
           }
         ]
       },
-
       {
         id: 2,
-        nome: "Sasuke Uchiha",
-        estilos: [
+        nome: "Douma",
+        modelos: [
           {
-            tipo: "Action Figure",
-            modelos: [
-              {
-                id: 1,
-                nome: "Sasuke SH Figuarts",
-                imagens: [
-                  "https://m.media-amazon.com/images/I/61cQ5ZKXJCL._AC_SL1000_.jpg"
-                ]
-              }
+            id: 1,
+            nome: "Douma Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552777/douma3.1_y95o6p.jpg"
             ]
           },
           {
-            tipo: "Funko Pop",
-            modelos: [
-              {
-                id: 1,
-                nome: "Sasuke Funko",
-                imagens: [
-                  "https://m.media-amazon.com/images/I/51m1k5B5yDL._AC_SL1000_.jpg"
-                ]
-              }
+            id: 2,
+            nome: "Douma Funko Pop 1",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289006/douma2_shzopj.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289007/douma2.2_dmnkqh.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289005/douma2.1_wowkpj.png"
+            ]
+          },
+          {
+            id: 3,
+            nome: "Douma Funko Pop 2",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1768262889/douma1.1_gyrqcb.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769288975/douma1.3_u1h9fa.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769288975/douma1.2_dkozqp.png"
             ]
           }
         ]
-      }
-    ]
-  },
-
-  {
-    id: 2,
-    anime: "One Piece",
-    descricao: "Piratas navegam em busca do lendário tesouro One Piece.",
-    personagens: [
+      },
       {
-        id: 1,
-        nome: "Monkey D. Luffy",
-        estilos: [
+        id: 3,
+        nome: "Giyu Tomioka",
+        modelos: [
           {
-            tipo: "Action Figure",
-            modelos: [
-              {
-                id: 1,
-                nome: "Luffy Gear 5 Figure",
-                imagens: [
-                  "https://m.media-amazon.com/images/I/71ZsYtR7TFL._AC_SL1000_.jpg"
-                ]
-              }
+            id: 1,
+            nome: "Giyu Tomioka Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289143/giyu_2.1_khgl8r.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289141/giyu2.2_abztpg.png"
             ]
           },
           {
-            tipo: "Funko Pop",
-            modelos: [
-              {
-                id: 1,
-                nome: "Luffy Funko",
-                imagens: [
-                  "https://m.media-amazon.com/images/I/51jZPjYyGCL._AC_SL1000_.jpg"
-                ]
-              }
+            id: 2,
+            nome: "Giyu Tomioka Funko Pop 2",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289140/giyu1.1_oh1c8p.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289138/giyu1.2_cxjzci.jpg"
+            ]
+          },
+          {
+            id: 3,
+            nome: "Giyu Tomioka Funko Pop 3",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289137/giyu3.2_bjzvpa.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289136/giyu3.1_turlcg.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        id: 4,
+        nome: "Gyokko",
+        modelos: [
+          {
+            id: 1,
+            nome: "Gyokko Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/c_auto,h_720,w_720/gyokko2.5_skbt2f.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771553228/gyokko2.4_v26duw.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771553230/gyokko2.3_x0buax.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289205/Gyokko_n7zngc.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        id: 5,
+        nome: "Hantengu",
+        modelos: [
+          {
+            id: 1,
+            nome: "Hantengu Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771553627/hantengu1.1_bxtgxf.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771553622/hantengu1.4_yfqk7k.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771553630/hantengu1.6_bohgzz.png"
+            ]
+          },
+          {
+            id: 2,
+            nome: "Hantengu Funko Pop 1",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771553618/hantengu2.2_gzhsi2.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771553619/hantengu2.1_kvibau.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        id: 6,
+        nome: "Kokushibo",
+        modelos: [
+          {
+            id: 1,
+            nome: "Kokushibo Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972482/kokushibo1.5_zukirv.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972488/kokushibo1.7_jkspiu.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972483/kokushibo1.3_cj53ot.png"
+
+            ]
+          },
+          {
+            id: 2,
+            nome: "Kokushibo Funko Pop 1",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289278/kokushibo1.1_xyql05.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289280/kokushibo1.2_arhmki.png"
+
+            ]
+          }
+        ]
+      },
+      {
+        id: 7,
+        nome: "Mitsuri Demônio",
+        modelos: [
+          {
+            id: 1,
+            nome: "Mitsuri Demônio Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555489/mitsuri1.1_eytmj0.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555516/mitsuri1.3_rb9uts.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555525/mitsuri1.2_z1b47t.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555485/mitsuri1.4_navhio.png"
+
+            ]
+          }
+        ]
+      },
+      {
+        id: 8,
+        nome: "Mitsuri",
+        modelos: [
+          {
+            id: 1,
+            nome: "Mitsuri Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771554589/mitsuri1.2_grjhf8.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771554590/mitsuri1.1_ue3l7a.webp"
+            ]
+          }
+        ]
+      },
+      {
+        id: 9,
+        nome: "Muzan",
+        modelos: [
+          {
+            id: 1,
+            nome: "Muzan Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771553878/muzan2.1_yphwty.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289304/muzan_p2bogw.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        id: 10,
+        nome: "Obanai",
+        modelos: [
+          {
+            id: 1,
+            nome: "Obanai Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972293/obanai2.2_msq3tj.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972293/obanai2.3_mdhmbg.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972293/obanai2.5_yzmydn.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972295/obanai2.4_jxryme.jpg"
+            ]
+          },
+          {
+            id: 2,
+            nome: "Obanai Funko Pop 1",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289365/obanai1.1_irjztr.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289363/obanai1.2_eopmop.png"
+            ]
+          }
+        ]
+      },
+      {
+        id: 11,
+        nome: "Rengoku",
+        modelos: [
+          {
+            id: 1,
+            nome: "Rengoku Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972195/rengoku3.2_flm1dr.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972192/rengoku3.3_ictlh7.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972194/rengoku3.1_tvika3.jpg"
+            ]
+          },
+          {
+            id: 2,
+            nome: "Rengoku Funko Pop 1",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972184/rengoku1.2_jn5cdq.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289425/rengoku1_highlk.jpg"
+            ]
+          },
+          {
+            id: 3,
+            nome: "Rengoku Funko Pop 2",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289429/rengoku2.1_d2lrdp.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289427/rengoku2.2_qnz4uz.png"
+            ]
+          }
+        ]
+      },
+      {
+        id: 12,
+        nome: "Sanemi",
+        modelos: [
+          {
+            id: 1,
+            nome: "Sanemi Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972011/sanemi1.2_tace6r.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972010/sanemi1.4_xivwhg.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972012/sanemi1.3_qmvui3.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289448/sanemi1_gtzjb0.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        id: 13,
+        nome: "Shinobu",
+        modelos: [
+          {
+            id: 1,
+            nome: "Shinobu Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771554877/shinobu3.1_evta4t.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771554874/shonbu3.3_mvdfbj.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771554882/shinobu3.2_htvhtp.png"
+            ]
+          },
+          {
+            id: 2,
+            nome: "Shinobu Funko Pop 1",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289473/shinobu1.1_ckzyye.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289475/shinobu1.2_isej82.png"
+            ]
+          },
+          {
+            id: 3,
+            nome: "Shinobu Funko Pop 2",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769971901/shinobu2.2_rk55n0.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769971902/shinobu2.1_ehoina.jpg"
+            ]
+
+          }
+        ]
+      },
+      {
+        id: 14,
+        nome: "Tanjiro",
+        modelos: [
+          {
+            id: 1,
+            nome: "Tanjiro Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555323/tanjiro2.1_tfhu83.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555326/tanjiro2.3_byfgdy.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555320/tanjiro2.2_zkluid.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555316/tanjiro2.4_kn9lrt.png"
+            ]
+          },
+          {
+            id: 2,
+            nome: "Tanjiro Funko Pop 1",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555291/tanjiro1.1_jnk5ip.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555294/tanjiro1.9_fgobpc.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555297/tanjiro1.7_rugrwq.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555306/tanjiro1.3_bjakal.png"
+            ]
+          },
+          {
+            id: 3,
+            nome: "Tanjiro Funko Pop 2",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555288/tanjiro1.2_a7846t.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555300/tanjiro1.4_miqx3h.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555303/tanjiro1.6_fco6fj.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555312/tanjiro1.8_nssthw.png"
+            ]
+
+          }
+        ]
+      },
+      {
+        id: 15,
+        nome: "Tengen Demônio",
+        modelos: [
+          {
+            id: 1,
+            nome: "Tengen Demônio Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555387/tengend1.1_ycfbir.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555391/tengend1.4_qxttga.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555395/tengend1.3_xawujh.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555383/tengend1.2_pqgjnp.png"
+            ]
+          }
+        ]
+      },
+      {
+        id: 16,
+        nome: "Tokito",
+        modelos: [
+          {
+            id: 1,
+            nome: "Tokito Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769971765/tokito1.4_cci8no.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769971761/tokito1.3_rcfqfp.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769971761/tokito1.2_zygurd.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289494/tokito1_iav6bq.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        id: 17,
+        nome: "Yoriichi",
+        modelos: [
+          {
+            id: 1,
+            nome: "Yoriichi Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555257/yoriichi2.1_adkenh.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555260/yoriichi2.3_biz9f5.png"
+            ]
+          },
+          {
+            id: 2,
+            nome: "Yoriichi Funko Pop 1",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289544/yoriichi1.1_cyknlb.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289547/yoriichi1.2_ablzih.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289542/yoriichi1.3_tz7nev.png"
+            ]
+          }
+        ]
+      },
+      {
+        id: 18,
+        nome: "Zenitsu",
+        modelos: [
+          {
+            id: 1,
+            nome: "Zenitsu Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769971564/zenitsu1.4_mizsx7.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769971564/zenitsu1.1_nhdhlq.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769971565/zenitsu1.3_qs0fk4.jpg"
             ]
           }
         ]
       }
     ]
   },
-
   {
     id: 3,
-    anime: "Dragon Ball",
-    descricao: "Guerreiros protegem a Terra usando artes marciais e poderes.",
+    nome: "Gachiakuta",
     personagens: [
       {
         id: 1,
-        nome: "Goku",
-        estilos: [
+        nome: "Enjin",
+        modelos: [
           {
-            tipo: "Action Figure",
-            modelos: [
-              {
-                id: 1,
-                nome: "Goku Ultra Instinct",
-                imagens: [
-                  "https://m.media-amazon.com/images/I/61mE7Vb6VTL._AC_SL1000_.jpg"
-                ]
-              }
+            id: 1,
+            nome: "Enjin Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972636/enjin2.1_cvkio2.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972641/enjin2.3_fwemsm.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972639/enjin2.2_bc0lop.png"
             ]
           },
           {
-            tipo: "Funko Pop",
-            modelos: [
-              {
-                id: 1,
-                nome: "Goku Funko",
-                imagens: [
-                  "https://m.media-amazon.com/images/I/51eJ0xJH1JL._AC_SL1000_.jpg"
-                ]
-              }
+            id: 2,
+            nome: "Enjin Funko Pop 1",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769291290/enjin1.1_pylmno.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769291295/enjin1.2_r09odw.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769291306/enjin1.4_n4uyhm.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769291300/enjin1.3_s8dx24.png"
             ]
+          }
+        ]
+      },
+      {
+        id: 2,
+        nome: "Gutia",
+        modelos: [
+          {
+            id: 1,
+            nome: "Gutia Funko Pop",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972781/gutia1.1_olawrw.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972771/gutia1.2_hdgerd.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972768/gutia1.3_ftepwd.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769972765/gutia1.4_iy0xzu.png"
+            ]
+          }
+        ]
+      },
+      {
+        id: 3,
+        nome: "Jabber",
+        modelos: [
+          {
+            id: 1,
+            nome: "Jabber Funko Pop",
+            estilo: "Funko Pop",
+            imagens: ["url1", "url2", "url3"]
+          }
+        ]
+      },
+      {
+        id: 4,
+        nome: "Riyo",
+        modelos: [
+          {
+            id: 1,
+            nome: "Riyo Funko Pop",
+            estilo: "Funko Pop",
+            imagens: ["url1", "url2", "url3"]
           }
         ]
       }

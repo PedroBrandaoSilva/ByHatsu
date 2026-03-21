@@ -1,10 +1,10 @@
 import { Card, Content, Description, ImageCard, SubTitle, Title } from "./style";
 
-function Cards({ data }) {
+function Cards({ data, onSelect }) {
   return (
     <Content>
       {data.map(item => (
-        <Card key={item.id}>
+        <Card key={item.id} onClick={() => onSelect(item)}>
           <ImageCard src={item.imagens[0]} alt={item.modelo} />
 
           <Title>{item.personagem}</Title>

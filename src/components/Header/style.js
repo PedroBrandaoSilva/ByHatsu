@@ -46,15 +46,15 @@ export const NavList = styled.ul`
   margin-right: 0;
 
   max-height: ${({ $isOpen }) =>
-    $isOpen ? "calc(100vh - 70px)" : "0"};
+        $isOpen ? "calc(100vh - 70px)" : "0"};
 
   opacity: ${({ $isOpen }) => ($isOpen ? "1" : "0")};
 
   visibility: ${({ $isOpen }) =>
-    $isOpen ? "visible" : "hidden"};
+        $isOpen ? "visible" : "hidden"};
 
   pointer-events: ${({ $isOpen }) =>
-    $isOpen ? "auto" : "none"};
+        $isOpen ? "auto" : "none"};
 
   overflow-y: auto;
   overflow-x: hidden;
@@ -63,7 +63,7 @@ export const NavList = styled.ul`
     max-height 0.6s ease,
     opacity 0.4s ease,
     visibility 0s linear ${({ $isOpen }) =>
-      $isOpen ? "0s" : "0.8s"};
+        $isOpen ? "0s" : "0.8s"};
 
 
     li {
@@ -85,18 +85,38 @@ export const NavList = styled.ul`
 
 export const Burger = styled.div`
   display: none;
-  flex-direction: column;
-  gap: 5px;
+  width: 36px;
+  height: 26px;
+  position: relative;
   cursor: pointer;
 
   span {
-    width: 35px;
+    position: absolute;
+    width: 100%;
     height: 4px;
     background-color: #fff;
     border-radius: 5px;
+    transition: 0.35s ease;
+  }
+
+  span:nth-child(1) {
+    top: ${({ $isOpen }) => ($isOpen ? "11px" : "0")};
+    transform: ${({ $isOpen }) =>
+        $isOpen ? "rotate(45deg)" : "rotate(0)"};
+  }
+
+  span:nth-child(2) {
+    top: 11px;
+    opacity: ${({ $isOpen }) => ($isOpen ? "0" : "1")};
+  }
+
+  span:nth-child(3) {
+    top: ${({ $isOpen }) => ($isOpen ? "11px" : "22px")};
+    transform: ${({ $isOpen }) =>
+        $isOpen ? "rotate(-45deg)" : "rotate(0)"};
   }
 
   @media (max-width: 645px) {
-    display: flex;
+    display: block;
   }
 `;
