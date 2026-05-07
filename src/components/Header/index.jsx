@@ -18,7 +18,7 @@ function Header({ setSearch }) {
 
   return (
     <HeaderContainer>
-      <Image src="/assets/react.svg" alt="Logo" />
+      <Image src="https://res.cloudinary.com/dfozzfg3u/image/upload/v1778062561/By_Hatsu_colorido_sem_fundo_roxoPrancheta_1_guxfmn.svg" alt="Logo" />
 
       <Burger $isOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
         <span />
@@ -29,18 +29,24 @@ function Header({ setSearch }) {
       <NavList $isOpen={menuOpen}>
         {!isMobile && (
           <>
-            <li><a href="#">Modelos</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Produtos Novos</a></li>
+            <li><a href="#">Feedbacks</a></li>
+            <li><a href="#">FAQ</a></li>
           </>
         )}
 
         {isMobile &&
-          animes.map(anime => (
-            <li key={anime} onClick={() => handleAnimeClick(anime)}>
-              {anime}
-            </li>
-          ))}
+           (
+           <>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Produtos Novos</a></li>
+            <li><a href="#">Feedbacks</a></li>
+            <li><a href="#">FAQ</a></li>
+          </>
+        )}
       </NavList>
     </HeaderContainer>
   );

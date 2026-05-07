@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 export const InputSearch = styled.input`
-    width: 100%;
+    width: 50%;
     padding: 10px;
     margin: 20px 0;
     font-size: 20px;

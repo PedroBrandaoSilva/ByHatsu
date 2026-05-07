@@ -6,7 +6,8 @@ import CarouselModal from "../../components/CarouselModal";
 import { models } from "../../data/models";
 import { buildCardsData } from "../../../utils/buildSearchModels";
 
-import { BoxInput, CardContainer, Container, Content } from "./styles";
+import { BoxInput, CardContainer, Container, Content, Video } from "./styles";
+import About from "../../components/About/About";
 
 function Home() {
   const [search, setSearch] = useState("");
@@ -36,8 +37,10 @@ function Home() {
   return (
     <Container>
       <Header setSearch={setSearch} />
-
+      <Video autoPlay loop muted
+      src="https://res.cloudinary.com/dfozzfg3u/video/upload/v1778118474/07f82425-86c3-4abb-be0b-48dff9052fb5_hxnepi.mov"></Video>
       <Content>
+        <About></About>
         <BoxInput>
           <Search
             value={search}

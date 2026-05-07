@@ -6,9 +6,15 @@ export const Container = styled.div`
 
 `
 
+export const Video = styled.video`
+    width: 98%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+`   
 export const Content = styled.div`
-    background-color: #ebe4e4ff;
-    width: 90%;
+    width: 100%;
     margin: 30px auto;
     padding: 20px;
     border-radius: 15px;

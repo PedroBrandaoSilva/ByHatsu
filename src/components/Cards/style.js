@@ -5,15 +5,15 @@ export const Content = styled.div`
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     text-align: center;
+    color: #fff;
 `
 export const Card = styled.div`
-    background-color: #fff;
     border-radius: 15px;
     padding: 15px;
 `
 export const ImageCard = styled.img`
-    max-width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
 `
 export const Title = styled.h2``

@@ -451,10 +451,11 @@ export const models = [
             nome: "Tanjiro Funko Pop 1",
             estilo: "Funko Pop",
             imagens: [
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555291/tanjiro1.1_jnk5ip.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555294/tanjiro1.9_fgobpc.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555297/tanjiro1.7_rugrwq.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555306/tanjiro1.3_bjakal.png"
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339110/tanjiro1_oyaifl.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339106/tanjiro3_grtiyt.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339101/tanjiro2_dusb1r.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339097/tanjiro4_gcjm6t.png"
+              
             ]
           },
           {
@@ -462,10 +463,10 @@ export const models = [
             nome: "Tanjiro Funko Pop 2",
             estilo: "Funko Pop",
             imagens: [
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555288/tanjiro1.2_a7846t.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555300/tanjiro1.4_miqx3h.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555303/tanjiro1.6_fco6fj.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771555312/tanjiro1.8_nssthw.png"
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339108/tanjiro6_zhr7oq.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339103/tanjiro9_q4mpqu.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339099/tanjiro8_ubwzth.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339094/tanjiro7_thodoz.png"
             ]
 
           }
