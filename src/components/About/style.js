@@ -5,7 +5,7 @@ export const Container = styled.div`
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 60px auto;
+    margin: 8rem auto;
     gap: 20px;
     color: #fff;
 `
@@ -16,4 +16,9 @@ export const Title = styled.h2`
 
 export const Content = styled.p`
     font-size: 22px;
+`
+
+export const ImagesContainer = styled.div`
+
+
 `

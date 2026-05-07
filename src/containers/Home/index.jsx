@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Search from "../../components/Search";
 import Cards from "../../components/Cards";
 import CarouselModal from "../../components/CarouselModal";
+import Feedbacks from "../../components/Feedbacks"
 import { models } from "../../data/models";
 import { buildCardsData } from "../../../utils/buildSearchModels";
 
@@ -40,7 +41,8 @@ function Home() {
       <Video autoPlay loop muted
       src="https://res.cloudinary.com/dfozzfg3u/video/upload/v1778118474/07f82425-86c3-4abb-be0b-48dff9052fb5_hxnepi.mov"></Video>
       <Content>
-        <About></About>
+        <About/>
+        <Feedbacks/>
         <BoxInput>
           <Search
             value={search}
@@ -59,7 +61,7 @@ function Home() {
       )}
     </Container>
       
-  );
+  )
 }
 
 export default Home;
