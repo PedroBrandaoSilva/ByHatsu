@@ -1,4 +1,4 @@
-import { Card, Content, Description, ImageCard, SubTitle, Title } from "./style";
+import { Card, Price, Content, Description, ImageCard, SubTitle, Title } from "./style";
 
 function Cards({ data, onSelect }) {
   return (
@@ -9,6 +9,12 @@ function Cards({ data, onSelect }) {
 
           <Title>{item.personagem}</Title>
 
+          <Price>
+            {item.preco.toLocaleString("pt-BR", {
+              style: "currency",
+              currency: "BRL"
+            })}
+          </Price>
           <SubTitle>
             {item.anime} • {item.estilo}
           </SubTitle>

@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react";
 import { HeaderContainer, Image, NavList, Burger } from "./style";
 import { animes } from "../../data/animes";
+import { useNavigate } from "react-router-dom";
 
 function Header({ setSearch }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 645);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     function handleResize() {
@@ -29,22 +32,22 @@ function Header({ setSearch }) {
       <NavList $isOpen={menuOpen}>
         {!isMobile && (
           <>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Produtos Novos</a></li>
-            <li><a href="#">Feedbacks</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a onClick={() => navigate('/')}>Início</a></li>
+            <li><a onClick={() => navigate('/produtos')}>Produtos</a></li>
+            <li><a onClick={() => navigate('/new')}>Produtos Novos</a></li>
+            <li><a onClick={() => navigate('/feedbacks')}>Feedbacks</a></li>
+            <li><a onClick={() => navigate('/faq')}>FAQ</a></li>
           </>
         )}
 
         {isMobile &&
            (
            <>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Produtos Novos</a></li>
-            <li><a href="#">Feedbacks</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a onClick={() => navigate('/')}>Início</a></li>
+            <li><a onClick={() => navigate('/produtos')}>Produtos</a></li>
+            <li><a onClick={() => navigate('/new')}>Produtos Novos</a></li>
+            <li><a onClick={() => navigate('/feedbacks')}>Feedbacks</a></li>
+            <li><a onClick={() => navigate('/faq')}>FAQ</a></li>
           </>
         )}
       </NavList>

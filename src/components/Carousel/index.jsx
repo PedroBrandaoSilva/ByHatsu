@@ -15,7 +15,7 @@ function Carousel({ images = [] }) {
       <img
         src={images[index]}
         alt=""
-        style={{ maxWidth: "500px", borderRadius: 10 }}
+        style={{ maxWidth: "400px", borderRadius: 10 }}
       />
 
       <button onClick={next}>▶</button>

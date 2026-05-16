@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    background-color: rgb(17, 16, 16);
+    background-color: #111010;
     min-height: 100vh;
 
 `
@@ -22,11 +22,9 @@ export const Content = styled.div`
    
 `
 
-export const BoxInput = styled.div`
-    text-align: center;
-`
 
 
-export const CardContainer = styled.div``
+
+
 
 

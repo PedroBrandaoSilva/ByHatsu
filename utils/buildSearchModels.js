@@ -1,14 +1,19 @@
-export function buildCardsData(animes = []) {
-  return animes.flatMap(anime =>
+export function buildCardsData(models) {
+
+  return models.flatMap(anime =>
     anime.personagens.flatMap(personagem =>
       personagem.modelos.map(modelo => ({
-        id: `${anime.id}-${personagem.id}-${modelo.id}`,
+
         anime: anime.nome,
-        descricao: anime.descricao,
         personagem: personagem.nome,
-        estilo: modelo.estilo,
         modelo: modelo.nome,
-        imagens: modelo.imagens || []
+        estilo: modelo.estilo,
+        imagens: modelo.imagens,
+
+        preco: modelo.preco || Math.floor(
+          Math.random() * (700 - 80) + 80
+        )
+
       }))
     )
   );

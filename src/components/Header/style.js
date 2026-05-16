@@ -4,13 +4,15 @@ export const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
-  background-color: #303031;
-  position: relative;
+  background-color: #242323;
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  top: 0;
 `;
 
 export const Image = styled.img`
-  max-width: 100px;
+  max-width: 90px;
   margin-left: 2rem;
 
   @media (max-width: 645px) {
@@ -20,10 +22,9 @@ export const Image = styled.img`
 
 export const NavList = styled.ul`
   list-style: none;
-  margin-right: 50%;
-  transform: translateX(50%);
   display: flex;
-  gap: 30px;
+  margin: 0 auto;
+  gap: 60px;
 
 
   li {
@@ -34,19 +35,50 @@ export const NavList = styled.ul`
     cursor: pointer;
     
     a{
+      position: relative;
       text-decoration: none;
       color: #fff;
-      font-size: 16px;
+      font-size: 17px;
+      
+
+      &:hover {
+        color: #959292;
+        
+      }
+
+      &::after {
+      content: "";
+      width: 0;
+      height: 2px;
+      background-color: #959292;
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      transition: 0.2s ease-in ;
+
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+
+      
     }
+
+    
+
+    
+
   }
   
 
-  @media (max-width: 645px) {
+  @media (max-width: 800px) {
   position: absolute;
-  top: 100px;
+  top: 5rem;
   right: 50%;
   width: 100%;
-  background-color: #2d116b;
+  transform: translateX(50%);
+  background-color: #303031;
   flex-direction: column;
 
   gap: 8px;
@@ -125,7 +157,7 @@ export const Burger = styled.div`
     $isOpen ? "rotate(-45deg)" : "rotate(0)"};
   }
 
-  @media (max-width: 645px) {
+  @media (max-width: 800px) {
     display: block;
   }
 `;

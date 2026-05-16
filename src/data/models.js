@@ -59,9 +59,9 @@ export const models = [
             nome: "Akaza Funko Pop 1",
             estilo: "Funko Pop",
             imagens: [
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552564/akaza7.2_iqcjwl.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552564/akaza7.5_vkj6fy.png",
               "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552564/akaza7.1_ehao9a.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552564/akaza7.5_vkj6fy.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552564/akaza7.2_iqcjwl.png",
               "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552563/akaza7.6_al9lqz.png",
               "https://res.cloudinary.com/dfozzfg3u/image/upload/v1771552563/akaza7.3_yxakhc.png"
             ]
@@ -82,10 +82,10 @@ export const models = [
             nome: "Akaza Funko Pop 3",
             estilo: "Funko Pop",
             imagens: [
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289073/akaza3.2_kdatri.png",
               "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289072/akaza3.1_uenybt.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289071/akaza2.2_hdwd8h.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289067/akaza2.1_rysrjf.png"
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289067/akaza2.1_rysrjf.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289073/akaza3.2_kdatri.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289071/akaza2.2_hdwd8h.png"
             ]
           },
           {
@@ -100,22 +100,10 @@ export const models = [
               "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289075/akaza1.2_afai1a.png"
             ]
           },
+          
           {
             id: 6,
             nome: "Akaza Funko Pop 5",
-            estilo: "Funko Pop",
-            imagens: [
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289073/akaza3.2_kdatri.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289078/akaza1.5_wgs7yb.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289077/akaza1.4_aqnjky.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289076/akaza1.3_wyigby.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289075/akaza1.2_afai1a.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289074/akaza1.1_bqcybb.png"
-            ]
-          },
-          {
-            id: 7,
-            nome: "Akaza Funko Pop 6",
             estilo: "Funko Pop",
             imagens: [
               "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289068/akaza5.3_lntvb3.png",
@@ -124,8 +112,8 @@ export const models = [
             ]
           },
           {
-            id: 8,
-            nome: "Akaza Funko Pop 7",
+            id: 7,
+            nome: "Akaza Funko Pop 6",
             estilo: "Funko Pop",
             imagens: [
               "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769289063/akaza4.1_vrjn6a.jpg",
