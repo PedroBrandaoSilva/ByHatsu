@@ -12,6 +12,7 @@ export const InputSearch = styled.input`
 
     @media (max-width: 741px) {
         width: 80%; 
+        margin-top: 10px;
     }
     @media (max-width: 361px) {
         font-size: 13px;
@@ -57,6 +58,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     width: 80%;
+    margin-top: 2rem;
 
     @media (max-width: 741px) {
         flex-direction: column;

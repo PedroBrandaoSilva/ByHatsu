@@ -3,7 +3,7 @@ import Search from "../../components/Search";
 import Cards from "../../components/Cards";
 import CarouselModal from "../../components/CarouselModal";
 import { PageContainer } from "../../components/PagesLayout/layouts";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { models } from "../../data/models";
 import { buildCardsData } from "../../../utils/buildSearchModels";
 import { BoxInput, CardContainer } from "./style";
@@ -21,6 +21,10 @@ function Products() {
         () => buildCardsData(models),
         []
     );
+
+     useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const filteredData = cardsData.filter(item => {
 

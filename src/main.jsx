@@ -2,8 +2,9 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { GlobalStyles } from '../GlobalStyles'
 import Home from './containers/Home'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Products from './containers/Products'
+import NewProducts from './containers/NewProducts'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: 'produtos',
     element: <Products />
+  },
+  {
+    path: 'new',
+    element: <NewProducts />
   },
   {
     path: '*',
