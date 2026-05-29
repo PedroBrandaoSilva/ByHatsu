@@ -145,7 +145,7 @@ export const Burger = styled.div`
   position: relative;
   cursor: pointer;
 
-  spa {
+  span {
     position: absolute;
     width: 100%;
     height: 4px;

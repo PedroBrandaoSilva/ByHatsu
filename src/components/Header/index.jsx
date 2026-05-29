@@ -32,7 +32,7 @@ function Header({ setSearch }) {
       <NavList $isOpen={menuOpen}>
         {!isMobile && (
           <>
-            <li onClick={({active}) => navigate('/')}><a>Início</a></li>
+            <li onClick={() => navigate('/')}><a>Início</a></li>
             <li onClick={() => navigate('/produtos')}><a>Produtos</a></li>
             <li onClick={() => navigate('/new')}><a>Produtos Novos</a></li>
             <li onClick={() => navigate('/feedback')}><a>Feedbacks</a></li>
