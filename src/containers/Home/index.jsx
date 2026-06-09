@@ -13,7 +13,7 @@ function Home() {
     <Container>
       <Header />
       <Video autoPlay loop muted
-        src="https://res.cloudinary.com/dfozzfg3u/video/upload/v1778118474/07f82425-86c3-4abb-be0b-48dff9052fb5_hxnepi.mov"></Video>
+        src="https://drive.google.com/file/d/1c1MumUUSN9KO7zc_j9mq529Vt1Lv8kup/view?usp=drive_link"></Video>
       <Content>
         <About />
         <SwiperComp/>
