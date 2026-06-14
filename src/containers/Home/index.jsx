@@ -12,11 +12,11 @@ function Home() {
   return (
     <Container>
       <Header />
-      <Video autoPlay loop muted
-        src="https://drive.google.com/file/d/1c1MumUUSN9KO7zc_j9mq529Vt1Lv8kup/view?usp=drive_link"></Video>
+      <Video autoPlay loop muted controls="false" preload="metadata"
+        src="https://res.cloudinary.com/dfozzfg3u/video/upload/v1781444069/Home_faryp2.mp4"></Video>
       <Content>
         <About />
-        <SwiperComp/>
+        <SwiperComp />
       </Content>
       <Contact />
 
