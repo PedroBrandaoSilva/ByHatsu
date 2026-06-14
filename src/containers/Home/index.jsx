@@ -12,7 +12,13 @@ function Home() {
   return (
     <Container>
       <Header />
-      <Video autoPlay loop muted preload="metadata"
+      <Video autoPlay
+        loop
+        muted
+        playsInline
+        preload="metadata"
+        controls={false}
+        disablePictureInPicture
         src="https://res.cloudinary.com/dfozzfg3u/video/upload/v1781444069/Home_faryp2.mp4"></Video>
       <Content>
         <About />
