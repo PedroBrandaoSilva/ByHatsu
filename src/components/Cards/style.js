@@ -20,6 +20,12 @@ export const ImageCard = styled.img`
     height: 350px;
     border-radius: 10px;
     object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px) scale(1.05);
+    }
 
     @media (max-width: 320px) {
         width: 100%;

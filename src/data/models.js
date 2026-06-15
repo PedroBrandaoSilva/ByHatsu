@@ -610,5 +610,112 @@ export const models = [
         ]
       }
     ]
+  },
+  {
+    id:3,
+    nome: "Dragon Ball Z",
+    personagens: [
+      {
+        id: 1,
+        nome: "Goku",
+        modelos: [
+          {
+            id: 1,
+            nome: "Goku Busto 1",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780165595/gokub4.1_x3zekj.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780165745/gokub4.8_ukkrws.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780165604/gokub4.6_xkicdw.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780165602/gokub4.5_lx0q06.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780165599/gokub4.3_l5eyoy.jpg"
+            ]
+          },
+          {
+            id: 2,
+            nome: "Goku Busto 2",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164810/gokub1.1_i3dzyl.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164813/gokub1.6_tqlyl5.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164811/gokub1.4_jlhk8j.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164807/gokub1.3_hfudd4.jpg"
+            ]
+          },
+          {
+            id: 3,
+            nome: "Goku Busto 3",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164066/gokub3.1_zz588v.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164070/gokub3.2_hymsf2.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164072/gokub3.3_jm8hh8.jpg"
+            ]
+          },
+          {
+            id: 4,
+            nome: "Goku Busto 4",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164067/gokub2.1_blwmts.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164070/gokub2.2_xualch.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164067/gokub2.3_sa5hqn.jpg"
+            ]
+          },
+          {
+            id: 5,
+            nome: "Goku Figure 1",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780167746/goku19.4_sdstr8.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780170768/goku19.7_jtxtup.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780167751/goku19.6_uafmho.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780167749/goku19.5_gyiiso.jpg"
+            ]
+          },
+          {
+            id: 6,
+            nome: "Goku Figure 2",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780167455/goku20.1_njlzii.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780167456/goku20.2_lj2ft7.jpg"
+            ]
+          },
+          {
+            id: 7,
+            nome: "Goku Figure 3",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780165280/goku13.1_xtvqil.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780165359/goku13.7_kzjobp.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780165358/goku13.6_aemjri.jpg",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780165350/goku13.2_sob6zn.jpg",
+            ]
+          },
+          {
+            id: 8,
+            nome: "Goku Figure 4",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164376/goku1.1_x9mknx.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164374/goku1.4_r8c4dz.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164375/goku1.2_nejak4.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164373/goku1.3_kpcj6m.png"
+            ]
+          },
+          {
+            id: 9,
+            nome: "Goku Figure 5",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164361/goku2.2_hfur5e.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164360/goku2.3_qfbi56.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1780164362/goku2.1_r8wqp7.png"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ];

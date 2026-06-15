@@ -1,4 +1,4 @@
-import { Container, Socials, IconLink, Title } from "./style";
+import { Container, Socials, IconLink, Title, Email } from "./style";
 import { FaInstagram, FaTiktok } from "react-icons/fa";
 
 function Contact() {
@@ -12,19 +12,22 @@ function Contact() {
 
       <Socials>
         <IconLink
-          href="#"
+          href="https://www.instagram.com/byhatsu/"
           target="_blank"
         >
           <FaInstagram />
         </IconLink>
 
         <IconLink
-          href="#"
+          href="https://www.tiktok.com/@byhatsu"
           target="_blank"
         >
           <FaTiktok />
         </IconLink>
       </Socials>
+      <Email href="mailto:byhatsu.br@gmail.com" target="_blank">
+        byhatsu.br@gmail.com
+      </Email>
     </Container>
   );
 }

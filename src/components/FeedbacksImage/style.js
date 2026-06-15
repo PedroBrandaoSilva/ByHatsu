@@ -37,19 +37,31 @@ export const ImagesContainers = styled.div`
     width: 100%;
     border-radius: 20px;
     transition: all 0.4s ease;
-  }
+    }
 
-  
-  &:hover img {
-    filter: blur(4px);
-    opacity: 0.5;
-  }
+    
+    &:hover img {
+        filter: blur(4px);
+        opacity: 0.5;
+    }
 
-  img:hover {
-    filter: blur(0);
-    opacity: 1;
-    transform: scale(1.05);
-    z-index: 2;
-  }
+    img:hover {
+        filter: blur(0);
+        opacity: 1;
+        transform: scale(1.05);
+        z-index: 2;
+    }
+
+    @media (max-width: 567px) {
+        &:hover img {
+            filter: blur(0);
+            opacity: 1;
+        }
+
+        img:hover {
+            transform: scale(1);
+            z-index: 2;
+        }
+    }
     
 `

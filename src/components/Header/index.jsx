@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { HeaderContainer, Image, NavList, Burger } from "./style";
-import { animes } from "../../data/animes";
 import { useNavigate } from "react-router-dom";
 
 function Header({ setSearch }) {

@@ -48,3 +48,15 @@ export const IconLink = styled.a`
     box-shadow: 0 0 10px #5512a1;
   }
 `;
+
+export const Email = styled.a`
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.4s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        
+    }
+`
