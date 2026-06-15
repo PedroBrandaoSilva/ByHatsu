@@ -39,6 +39,6 @@ export const Price = styled.p`
 `
 export const Title = styled.h2``
 export const SubTitle = styled.h3`
-    font-size: 14px;
+    font-size: 16px;
 `
 export const Description = styled.p``
