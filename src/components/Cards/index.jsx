@@ -9,7 +9,7 @@ function Cards({ data, onSelect }) {
 
           <Title>{item.personagem}</Title>
           <SubTitle>
-            {item.anime} • {item.estilo}
+            {item.anime}
           </SubTitle>
           <Price>
             {item.preco.toLocaleString("pt-BR", {
