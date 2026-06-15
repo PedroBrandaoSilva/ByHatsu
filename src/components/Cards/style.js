@@ -32,11 +32,13 @@ export const ImageCard = styled.img`
     }
 `
 export const Price = styled.p`
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    color: #2df60a;
+    color: #b5bdbc;
     
 `
 export const Title = styled.h2``
-export const SubTitle = styled.h3``
+export const SubTitle = styled.h3`
+    font-size: 14px;
+`
 export const Description = styled.p``
