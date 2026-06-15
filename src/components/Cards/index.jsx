@@ -1,4 +1,4 @@
-import { Card, Price, Content, Description, ImageCard, SubTitle, Title } from "./style";
+import { Card, Price, Content, ImageCard, SubTitle, Title } from "./style";
 
 function Cards({ data, onSelect }) {
   return (
@@ -8,18 +8,18 @@ function Cards({ data, onSelect }) {
           <ImageCard src={item.imagens[0]} alt={item.modelo} />
 
           <Title>{item.personagem}</Title>
-
+          <SubTitle>
+            {item.anime} • {item.estilo}
+          </SubTitle>
           <Price>
             {item.preco.toLocaleString("pt-BR", {
               style: "currency",
               currency: "BRL"
             })}
           </Price>
-          <SubTitle>
-            {item.anime} • {item.estilo}
-          </SubTitle>
+          
 
-          <Description>{item.modelo}</Description>
+          
         </Card>
       ))}
     </Content>
