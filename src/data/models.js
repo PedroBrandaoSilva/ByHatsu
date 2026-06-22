@@ -8,8 +8,8 @@ export const models = [
         nome: "Aoi Todo",
         modelos: [
           {
-            id: 2,
-            nome: "Aoi Todo Funko Pop",
+            id: 1,
+            nome: "Aoi Todo",
             estilo: "Funko Pop",
             imagens: [
               "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769290190/aoi1.1_visya2.png",
@@ -18,8 +18,8 @@ export const models = [
             ]
           },
           {
-            id: 3,
-            nome: "Aoi Todo 2 Funko Pop",
+            id: 2,
+            nome: "Aoi Todo 1",
             estilo: "Funko Pop",
             imagens: [
               "https://res.cloudinary.com/dfozzfg3u/image/upload/v1769290179/aoi2_oqkutv.jpg",
@@ -624,7 +624,7 @@ export const models = [
     ]
   },
   {
-    id:3,
+    id: 4,
     nome: "Dragon Ball Z",
     personagens: [
       {
@@ -731,7 +731,7 @@ export const models = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     nome: "86 - eighty six",
     personagens: [
       {
@@ -754,7 +754,7 @@ export const models = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     nome: "A Casa do Dragão",
     personagens: [
       {
@@ -764,15 +764,11 @@ export const models = [
           {
             id: 1,
             nome: "Aegon e Sunfyre",
-            estilo: "Funko Pop",
+            estilo: "Action Figure",
             imagens: [
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776435727/sunfyre_vguco1.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776435724/sunfyre2_wwjvh3.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776435723/sunfyre3_dw339l.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776435712/sunfyre6_eifp8r.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776435710/sunfyre7_aln7qg.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776435692/sunfyre8_wrf0jd.png",
-              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776435716/sunfyre4_fnriln.png"
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369165/aegon1_g8b7v3.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369166/aegon2_v3b7w8.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369166/aegon3_b8n2mx.png"
             ]
           }
         ]
@@ -780,164 +776,180 @@ export const models = [
       {
         id: 2,
         nome: "Aemond",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369631/aemond1_sduy4w.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369631/aemond2_dirjfm.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369630/aemond4_rnydaa.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369630/aemond4_rnydaa.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369631/aemond3_rmq0dy.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369630/aemond8_tzpdno.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369630/aemond7_vtxjsy.png"
+        modelos: [
+          {
+            id: 1,
+            nome: "Aemond",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369631/aemond1_sduy4w.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369631/aemond2_f799as.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369631/aemond3_v36wsh.png"
+            ]
+          }
         ]
       },
       {
         id: 3,
         nome: "Daemon",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369859/daemon_oxgfys.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369857/daemon1_fgguda.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369859/daemon7_z49gh6.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369854/daemon4_jhjhqf.png" 
+        modelos: [
+          {
+            id: 1,
+            nome: "Daemon",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371191/daemon1_gqonwz.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371192/daemon2_u99v88.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371192/daemon3_b5w9v9.png"
+            ]
+          }
         ]
       },
       {
         id: 4,
-        nome: "Daemon 1",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369855/daemon2_fbwc8f.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369854/daemon3_rncwnc.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369851/daemon10_yuo5y1.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369851/daemon6_vpdj1b.png"
+        nome: "Laena",
+        modelos: [
+          {
+            id: 1,
+            nome: "Laena",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371193/laena1_w7v6w8.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371194/laena2_m9v6w8.png"
+            ]
+          }
         ]
       },
       {
         id: 5,
-        nome: "Daemon e Rhaenyra",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369928/daemonrhaenyra_qyqv4j.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369924/daemonrhaenyra3_z1yke5.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369925/daemonrhaenyra4_gy1prv.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369925/daemonrhaenyra5_vztnpd.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369924/daemonrhaenyra3_z1yke5.png"
-          
+        nome: "Moondancer",
+        modelos: [
+          {
+            id: 1,
+            nome: "Moondancer",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371194/moondancer1_w7v6w8.png"
+            ]
+          }
         ]
       },
       {
         id: 6,
-        nome: "Laena",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372209/laena1_eb10bs.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372203/laena2_hsu4dk.png"
-        ]
-      },
-      {
-        id: 7,
-        nome: "Moondancer",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339417/moondancer7_b2v081.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339412/moondancer5_i9eir4.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339400/moondancer2_lq90jt.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339414/moondancer6_gnama9.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339409/moondancer8_wogohu.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339399/moondancer1_l7eqej.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776339402/moondancer4_hqulrp.png"
-        ]
-      },
-      {
-        id: 8,
-        nome: "Seasmoke e Addam",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776373159/seasmoke7_nkr6za.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776373165/seasmoke5_zrssxs.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776373163/seasmoke6_mducgn.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776373156/seasmoke8_k3q6md.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776373151/seasmoke4_wzampd.png"
+        nome: "Seasmoke",
+        modelos: [
+          {
+            id: 1,
+            nome: "Seasmoke",
+            estilo: "Action Figure",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371195/seasmoke1_w7v6w8.png"
+            ]
+          }
         ]
       }
     ]
   },
   {
-    id: 6,
-    nome: "Agatha All Along ",
+    id: 7,
+    nome: "Agatha All Along",
     personagens: [
       {
         id: 1,
         nome: "Agatha",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369746/agnes_flwpql.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369745/agnes3_pa5v3c.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369746/agnes5_gcld86.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369746/agnes2_m7lqmo.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369745/agnes4_kfixb5.png"
+        modelos: [
+          {
+            id: 1,
+            nome: "Agatha",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371714/agatha1_v2v6w8.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371714/agatha2_b3v6w8.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371715/agatha3_n4v6w8.png"
+            ]
+          }
         ]
       },
       {
         id: 2,
         nome: "Alice",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369826/alice1_whnwen.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369789/alice3_spx76j.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369790/alice4_ysto8d.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776369789/alice2_nuvats.png"
+        modelos: [
+          {
+            id: 1,
+            nome: "Alice",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372228/alice1_m5v6w8.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372228/alice2_q6v6w8.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372229/alice3_w7v6w8.png"
+            ]
+          }
         ]
       },
       {
         id: 3,
         nome: "Jennifer",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371176/Jennifer_sor1hd.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371167/Jennifer2_igkjsc.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371172/Jennifer1_uceguz.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776371161/Jennifer3_urvrkm.png"
+        modelos: [
+          {
+            id: 1,
+            nome: "Jennifer",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372229/jennifer1_e8v6w8.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372229/jennifer2_r9v6w8.png"
+            ]
+          }
         ]
       },
       {
         id: 4,
         nome: "Lilia",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372294/lilia_wbld1e.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372289/lilia2_hifjyv.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372284/lilia3_cyfcvb.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372229/lilia5_a7rlg1.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372299/lilia4_ltos4a.png"
-
+        modelos: [
+          {
+            id: 1,
+            nome: "Lilia",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372228/lilia1_wbld1e.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372289/lilia2_hifjyv.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372284/lilia3_cyfcvb.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372229/lilia5_a7rlg1.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372299/lilia4_ltos4a.png"
+            ]
+          }
         ]
       },
       {
         id: 5,
         nome: "Rio",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372740/rio_fhbgjo.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372739/rio2_tazksi.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372738/rio3_rsseli.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372711/rio4_loxgli.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372712/rio5_nynscj.png"
+        modelos: [
+          {
+            id: 1,
+            nome: "Rio",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372740/rio_fhbgjo.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372739/rio2_tazksi.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372738/rio3_rsseli.png"
+            ]
+          }
         ]
       },
       {
         id: 6,
         nome: "Sra. Hart",
-        estilo: "Funko Pop",
-        imagens: [
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776370892/hart_k2aktg.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776370889/hart1_glfzei.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776370884/hart2_setjuv.png",
-          "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776370878/hart4_fdqahq.png"
+        modelos: [
+          {
+            id: 1,
+            nome: "Sra. Hart",
+            estilo: "Funko Pop",
+            imagens: [
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372740/hart1_y6v6w8.png",
+              "https://res.cloudinary.com/dfozzfg3u/image/upload/v1776372741/hart2_u7v6w8.png"
+            ]
+          }
         ]
       }
     ]
   }
-  
-];
+]
